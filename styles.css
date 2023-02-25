@@ -63,20 +63,18 @@ nav{
 }
 
 .header-text h1{
-    color: #ffffff;
+    color: #000000;
     font-size: 75px;
-    margin-top: 20px 0px 20px;
     font-weight: bold;
+    padding-top: 10%;
+}
+.header-text h1 span{
+   color: #ff0000;
 }
 .header-text h3{
-    color: rgb(255, 102, 0);
+    color: rgb(255, 255, 255);
     font-size: 25px;
-    margin-bottom: 50px;
-}
-.header-text h4{
-    color: #51ff00;
-    letter-spacing: 2px;
-    font-size: 20px;
+    padding-top: 35px;
 }
 
 
