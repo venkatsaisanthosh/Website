@@ -38,7 +38,7 @@ nav{
  nav ul li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
     font-weight: bold;
  }
@@ -82,18 +82,13 @@ nav{
 
 /*-----------------------------about--------------------------------*/
 #about{
-    padding: 80px 0;
+    padding: 50px;
     background-image: url(about\ background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 2;
  }
-  .row{
-     display: flex;
-     justify-content: space-between;
-     flex-wrap: wrap;
- }
- .about-col-1{
+  .about-col-1{
      flex-basis: 35%;
  }
  .about-col-1 img{
@@ -106,7 +101,7 @@ nav{
  }
  
  .about-col-2 h1{
-    color:rgb(7, 194, 16);
+    color:rgb(255, 0, 0);
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 40px;
@@ -114,14 +109,13 @@ nav{
  }
  .about-col-2 h4{
     color:  #000000;
-    letter-spacing: 1px;
     font-size: 25px;
     margin-bottom: 40px;
     text-transform: capitalize;
  }
  .about-col-2-table{
-    color: #f71808;
-    letter-spacing: 1px;
+    color: #ff008c;
+    letter-spacing: 4px;
     line-height: 30px;
     font-size: 20px;
     margin-bottom: 40px;
@@ -132,31 +126,33 @@ nav{
 
  /*---------------------------education-------------------------------*/
  #education{
-    background-image: url(education\ background.jpg);
+    background-image: url(education\ background1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1.5;
+    height: 120vh;
+    
  }
  .header h1{
-    color: #40ff00;
-    font-size: 60px;
+    color: #ff0000;
+    font-size: 80px;
     margin-top: 20px 0px 20px;
-    margin-left: 5%;
+    margin-left: 35%;
     font-weight: bold;
+    padding-top: 70px;
 }
 .header-table span{
-   color: #ff0000;
+   color: #ff8c00;
    font-weight: bold;
 }
 .header-table{
     display: center;
     width: 100%;
-    border: 0;
     outline: none;
     padding: 15px;
-    margin: 10px 10%;
+    margin: -45px 10%;
     font-size: 25px;
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
 
 }
@@ -175,28 +171,22 @@ nav{
    font-size: 50px;
    margin-top: 20px 0px 20px;
    margin-left: 40%;
-}
-.row{
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-}
-.skills-table-left{
-   flex-basis: 40%;
-}
-.skills-table-right{
-   flex-basis: 40%;
+   padding-top: 50px;
 }
 
 .skills-table-left{
-   margin: 50px 50px;
+   margin: 30px 30px;
    font-size: 30px;
    color: rgb(0, 0, 0);
+   font-weight: bold;
+   padding-left: 60px;
 }
 .skills-table-right{
-   margin: 50px 50px;
+   margin: 30px 30px;
+   padding-right: 60px;
    font-size: 30px;
    color: rgb(0, 0, 0);
+   font-weight: bold;
 }
 
  /*-----------------contact------------------------*/
@@ -238,10 +228,6 @@ nav{
  }
 
  .contact-right{
-    width: 100%;
-    border: 0;
-    outline: none;
-    padding: 15px;
     margin-top: 150px;
     font-size: 25px;
     color: #ff6f00;
@@ -266,11 +252,12 @@ footer{
 }
 .social-icons a{
    text-decoration: none;
-   font-size: 30px;
+   font-size: 50px;
    margin-right: 10px;
    color: #ff2a00;
    display: inline-block;
    transition: transform 0.5s;
+   
 }
 .social-icons a:hover{
    color: #000000;
