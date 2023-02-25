@@ -85,6 +85,7 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 2;
+    height: 100vh;
  }
   .about-col-1{
      flex-basis: 35%;
@@ -128,7 +129,7 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1.5;
-    height: 120vh;
+    height: 100vh;
     
  }
  .header h1{
@@ -162,6 +163,7 @@ nav{
    background-size: cover;
     background-repeat: no-repeat;
     opacity: 1.5;
+    height: 100vh;
 
 }
 .skills h1{
